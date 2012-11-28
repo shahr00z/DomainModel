@@ -28,7 +28,7 @@ namespace DomainModel.Classes
         public Guid UniqId { get; set; }
 
         public DateTime CreatedDate { get; set; }
-
+        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         public byte[] RowVersion { get; set; }
 
         #endregion
