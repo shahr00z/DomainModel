@@ -2,7 +2,7 @@
 
 namespace DomainModel
 {
-    public class Tags : BaseFieldsTables
-    {
-    }
+	public class Tag : BaseFieldsTables
+	{
+	}
 }
